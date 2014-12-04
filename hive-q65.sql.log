@@ -1,0 +1,274 @@
+
+Logging initialized using configuration in jar:file:/home/hadoop/.versions/hive-0.13.1/lib/hive-common-0.13.1.jar!/hive-log4j.properties
+Warning: Map Join MAPJOIN[421][bigTable=?] in task 'Stage-19:MAPRED' is a cross product
+Warning: Map Join MAPJOIN[361][bigTable=?] in task 'Stage-18:MAPRED' is a cross product
+Warning: Shuffle Join JOIN[34][tables = [store, item, sb]] in Stage 'Stage-6:MAPRED' is a cross product
+Warning: Map Join MAPJOIN[422][bigTable=item] in task 'Stage-21:MAPRED' is a cross product
+Total jobs = 14
+Stage-27 is selected by condition resolver.
+Stage-1 is filtered out by condition resolver.
+Stage-31 is selected by condition resolver.
+Stage-8 is filtered out by condition resolver.
+14/12/03 20:29:21 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10024/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:29:21 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10024/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203202929_97d85f45-0e8e-4e96-9f83-9c8c447b51b8.log
+2014-12-03 08:29:21	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:29:22	Dump the side-table for tag: 0 with group count: 1 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10019/HashTable-Stage-21/MapJoin-mapfile60--.hashtable
+2014-12-03 08:29:22	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10019/HashTable-Stage-21/MapJoin-mapfile60--.hashtable (407 bytes)
+2014-12-03 08:29:22	End of local task; Time Taken: 0.971 sec.
+Execution completed successfully
+MapredLocal task succeeded
+14/12/03 20:29:26 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10026/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:29:26 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10026/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203202929_97d85f45-0e8e-4e96-9f83-9c8c447b51b8.log
+2014-12-03 08:29:27	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:29:30	Dump the side-table for tag: 1 with group count: 365 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10013/HashTable-Stage-15/MapJoin-mapfile21--.hashtable
+2014-12-03 08:29:30	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10013/HashTable-Stage-15/MapJoin-mapfile21--.hashtable (10898 bytes)
+2014-12-03 08:29:30	End of local task; Time Taken: 2.234 sec.
+Execution completed successfully
+MapredLocal task succeeded
+14/12/03 20:29:34 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10028/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:29:34 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10028/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203202929_97d85f45-0e8e-4e96-9f83-9c8c447b51b8.log
+2014-12-03 08:29:35	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:29:37	Dump the side-table for tag: 1 with group count: 365 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10021/HashTable-Stage-22/MapJoin-mapfile71--.hashtable
+2014-12-03 08:29:37	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10021/HashTable-Stage-22/MapJoin-mapfile71--.hashtable (10898 bytes)
+2014-12-03 08:29:37	End of local task; Time Taken: 2.033 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 14
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0381, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0381/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0381
+Hadoop job information for Stage-21: number of mappers: 1; number of reducers: 0
+2014-12-03 20:29:52,318 Stage-21 map = 0%,  reduce = 0%
+2014-12-03 20:30:05,799 Stage-21 map = 100%,  reduce = 0%, Cumulative CPU 6.18 sec
+MapReduce Total cumulative CPU time: 6 seconds 180 msec
+Ended Job = job_1416678524241_0381
+Launching Job 4 out of 14
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0382, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0382/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0382
+Hadoop job information for Stage-15: number of mappers: 2; number of reducers: 0
+2014-12-03 20:30:19,201 Stage-15 map = 0%,  reduce = 0%
+2014-12-03 20:30:41,938 Stage-15 map = 50%,  reduce = 0%, Cumulative CPU 18.37 sec
+2014-12-03 20:30:45,063 Stage-15 map = 76%,  reduce = 0%, Cumulative CPU 20.55 sec
+2014-12-03 20:30:48,200 Stage-15 map = 100%,  reduce = 0%, Cumulative CPU 23.39 sec
+MapReduce Total cumulative CPU time: 23 seconds 390 msec
+Ended Job = job_1416678524241_0382
+Launching Job 5 out of 14
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0383, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0383/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0383
+Hadoop job information for Stage-22: number of mappers: 2; number of reducers: 0
+2014-12-03 20:31:01,445 Stage-22 map = 0%,  reduce = 0%
+2014-12-03 20:31:24,203 Stage-22 map = 50%,  reduce = 0%, Cumulative CPU 18.8 sec
+2014-12-03 20:31:25,242 Stage-22 map = 76%,  reduce = 0%, Cumulative CPU 21.52 sec
+2014-12-03 20:31:26,273 Stage-22 map = 100%,  reduce = 0%, Cumulative CPU 23.17 sec
+MapReduce Total cumulative CPU time: 23 seconds 170 msec
+Ended Job = job_1416678524241_0383
+Launching Job 6 out of 14
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0384, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0384/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0384
+Hadoop job information for Stage-2: number of mappers: 1; number of reducers: 1
+2014-12-03 20:31:37,966 Stage-2 map = 0%,  reduce = 0%
+2014-12-03 20:31:51,355 Stage-2 map = 34%,  reduce = 0%, Cumulative CPU 7.06 sec
+2014-12-03 20:31:52,387 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 8.98 sec
+2014-12-03 20:32:03,746 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 14.87 sec
+MapReduce Total cumulative CPU time: 14 seconds 870 msec
+Ended Job = job_1416678524241_0384
+Launching Job 7 out of 14
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0385, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0385/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0385
+Hadoop job information for Stage-9: number of mappers: 1; number of reducers: 1
+2014-12-03 20:32:16,232 Stage-9 map = 0%,  reduce = 0%
+2014-12-03 20:32:29,836 Stage-9 map = 67%,  reduce = 0%, Cumulative CPU 7.63 sec
+2014-12-03 20:32:30,867 Stage-9 map = 100%,  reduce = 0%, Cumulative CPU 8.84 sec
+2014-12-03 20:32:41,185 Stage-9 map = 100%,  reduce = 100%, Cumulative CPU 14.06 sec
+MapReduce Total cumulative CPU time: 14 seconds 60 msec
+Ended Job = job_1416678524241_0385
+Stage-28 is selected by condition resolver.
+Stage-29 is filtered out by condition resolver.
+Stage-6 is filtered out by condition resolver.
+14/12/03 20:32:46 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10040/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:32:46 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10040/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203202929_97d85f45-0e8e-4e96-9f83-9c8c447b51b8.log
+2014-12-03 08:32:46	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:32:47	Dump the side-table for tag: 1 with group count: 1 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10015/HashTable-Stage-18/MapJoin-mapfile41--.hashtable
+2014-12-03 08:32:47	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10015/HashTable-Stage-18/MapJoin-mapfile41--.hashtable (369 bytes)
+2014-12-03 08:32:47	End of local task; Time Taken: 1.001 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 9 out of 14
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0386, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0386/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0386
+Hadoop job information for Stage-18: number of mappers: 1; number of reducers: 0
+2014-12-03 20:32:59,435 Stage-18 map = 0%,  reduce = 0%
+2014-12-03 20:33:28,277 Stage-18 map = 100%,  reduce = 0%, Cumulative CPU 21.72 sec
+MapReduce Total cumulative CPU time: 21 seconds 720 msec
+Ended Job = job_1416678524241_0386
+Stage-25 is selected by condition resolver.
+Stage-26 is filtered out by condition resolver.
+Stage-3 is filtered out by condition resolver.
+14/12/03 20:33:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10044/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:33:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10044/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203202929_97d85f45-0e8e-4e96-9f83-9c8c447b51b8.log
+2014-12-03 08:33:33	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:33:35	Dump the side-table for tag: 1 with group count: 60838 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10009/HashTable-Stage-12/MapJoin-mapfile01--.hashtable
+2014-12-03 08:33:36	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-29-14_418_2824745702870147704-1/-local-10009/HashTable-Stage-12/MapJoin-mapfile01--.hashtable (2098311 bytes)
+2014-12-03 08:33:36	End of local task; Time Taken: 2.709 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 11 out of 14
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0387, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0387/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0387
+Hadoop job information for Stage-12: number of mappers: 1; number of reducers: 0
+2014-12-03 20:33:47,983 Stage-12 map = 0%,  reduce = 0%
+2014-12-03 20:34:27,152 Stage-12 map = 54%,  reduce = 0%, Cumulative CPU 32.42 sec
+2014-12-03 20:34:46,745 Stage-12 map = 100%,  reduce = 0%, Cumulative CPU 52.59 sec
+MapReduce Total cumulative CPU time: 52 seconds 590 msec
+Ended Job = job_1416678524241_0387
+Launching Job 12 out of 14
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0388, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0388/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0388
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2014-12-03 20:34:59,931 Stage-4 map = 0%,  reduce = 0%
+2014-12-03 20:35:08,361 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 2.06 sec
+2014-12-03 20:35:18,670 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 4.75 sec
+MapReduce Total cumulative CPU time: 4 seconds 750 msec
+Ended Job = job_1416678524241_0388
+MapReduce Jobs Launched: 
+Job 0: Map: 1   Cumulative CPU: 6.18 sec   HDFS Read: 5052102 HDFS Write: 33339644 SUCCESS
+Job 1: Map: 2   Cumulative CPU: 23.39 sec   HDFS Read: 388576995 HDFS Write: 3330624 SUCCESS
+Job 2: Map: 2   Cumulative CPU: 23.17 sec   HDFS Read: 388576995 HDFS Write: 3330624 SUCCESS
+Job 3: Map: 1  Reduce: 1   Cumulative CPU: 14.87 sec   HDFS Read: 3331215 HDFS Write: 1755229 SUCCESS
+Job 4: Map: 1  Reduce: 1   Cumulative CPU: 14.06 sec   HDFS Read: 3331215 HDFS Write: 277 SUCCESS
+Job 5: Map: 1   Cumulative CPU: 21.72 sec   HDFS Read: 33340012 HDFS Write: 248422852 SUCCESS
+Job 6: Map: 1   Cumulative CPU: 52.59 sec   HDFS Read: 248423715 HDFS Write: 20423 SUCCESS
+Job 7: Map: 1  Reduce: 1   Cumulative CPU: 4.75 sec   HDFS Read: 20791 HDFS Write: 14919 SUCCESS
+Total MapReduce CPU Time Spent: 2 minutes 40 seconds 730 msec
+OK
+able	Able, plain approaches would break yet yesterday soci	22.31999969482422	5.96	48.2	scholarunivamalg #4
+able	Above competitive wee	29.440000772476196	3.91	3.51	edu packnameless #2
+able	All practical players would characterise just games. Successive, able bodies reflect best children. Hopes think now especially popular aspec	3.5199999809265137	6.12	0.89	exportiexporti #2
+able	Areas could avoid. Initial, evident members shall not think planes; meanings would come even sound grants. Primary ma	35.0	9.54	2.17	edu packnameless #8
+able	Centres affect in a structures. Explanations should remember rather rich, good forms. Companies shall build yet hastily various systems; papers must not begin ways. Useful students used to extract w	34.28000020980835	3.39	2.06	scholarnameless #2
+able	Enormous, english children remember recent, old payments. Records would go p	32.059998989105225	6.49	5.19	amalgamalg #2
+able	Essential, keen groups ought to replace long eyes; desperate years would not help worth a ste	30.12000000476837	2.53	2.92	importoexporti #2
+able	Exactly legal banks ought to account properly multiple, toxic fathers. Urgent systems answer relevant, remarkable participants. Primarily sure applic	35.78000032901764	2.01	1.2	corpmaxi #2
+able	Eyes should see on a others. Rare, true problems look local, poor months. Jewish orders will lo	34.00999927520752	1.23	0.93	edu packedu pack #2
+able	Forms equip al	31.360000133514404	6.76	3.3	exportischolar #2
+able	Groups include suddenly total, red kids. Examinations shall include estimated pp.. Years offer co	19.920000225305557	4.56	4.1	amalgamalg #2
+able	Here little lines might involve by no means royal useful emotions. Local workers would 	36.040000438690186	4.81	71.07	importoexporti #2
+able	High fee	30.360000371932983	6.41	4.77	exportiexporti #2
+able	Issues keep considerably active, british others. Weak, other measures may learn only serious companies. Opportunities master; possible, new pictures must formulate funds; priz	34.30999946594238	7.12	5.55	edu packimporto #2
+able	Largely orange crews will take as still possible examples. Human, just bishops ought to remove terms; forward, r	0.5899999737739563	5.46	4.47	edu packedu pack #2
+able	Modest systems cannot spare competitive places. Able, innocent workers will not form still conflicts; black, olympic forces may jump ever eyes. Ov	13.289999604225159	1.09	0.53	importoscholar #2
+able	Old, digital systems must go willing systems. Slightly small relationships produce of course;	26.27999997138977	34.53	10.35	exportiexporti #2
+able	Over wide attacks agree i	30.60000056028366	7.3	5.98	corpmaxi #2
+able	Payme	36.49999964237213	0.77	3.81	exportibrand #10
+able	Public members may not forgive; boys ought to hurt so early british changes. Faces would 	26.979999542236328	4.43	4.65	importonameless #2
+able	Simple	24.820000052452087	1.46	0.8	edu packexporti #2
+able	Simple, nice levels succeed	30.52999997138977	3.57	2.68	amalgunivamalg #4
+able	So other dates must take services. Alternatively industrial issues would go earlier young germans. Materials change at least in a numbers; women will investigate top or	5.130000114440918	3.37	2.62	edu packamalg #2
+able	There different entries advertise usually too general groups; ministers would not make effective eyes; new, apparent ministers read so residential, expen	36.22999906539917	30.26	21.78	brandbrand #6
+able	Users ought to ensure aside by a minutes. Persons think specifically other signs. Sad, angry authorities feel other than an readers. Christians can build even 	27.62999999523163	1.7	1.05	edu packamalg #2
+ation	Alone, jewish homes talk effective, interesting associations. Helpful, d	19.079999566078186	88.9	37.33	importoexporti #2
+ation	Also outside areas may not hear. More distant members can love other pounds. Surprising boundaries must say enough separate, delicious evenings; social, other feet would approach. Important 	21.43000054359436	3.86	0.31	importoedu pack #2
+ation	Annual, normal days shall not sing monthly, careful lives. Full, light intervals would call tomorrow long methods; usually correct variations address enough dead years. General, sorry player	17.699999809265137	9.73	3.69	exportiexporti #2
+ation	Areas shall not follow achievements. Certain, political meetings hear just hor	23.15000009536743	0.13	0.11	exportiedu pack #2
+ation	Aware, popular elements used to examine red enemies. Able, adequate countries go minutes; young,	24.720000743865967	4.74	2.03	exportiedu pack #2
+ation	Fine old programmes may not mean. Public pp. may not believe however thus continued lines. Physical agenc	13.579999923706055	1.74	2.38	importomaxi #6
+ation	Forces should not like too; only sufficient facts might not think vast police. Here occasional weeks see exte	21.349999725818634	5.58	3.73	amalgmaxi #10
+ation	Full, public nations finance howev	32.429999589920044	6.05	0.48	univmaxi #4
+ation	Generally other countries relish now conservative days. Colleges can need firm, sure shareholders. 	21.679999589920044	4.92	2.52	amalgunivamalg #9
+ation	Individual, private men know later only main provisions; mor	26.799999713897705	84.11	2.22	amalgscholar #2
+ation	International, british events break other rates. Good, spanish elements cut immediately annual lines. Members would a	24.770000219345093	0.97	0.55	importoamalg #2
+ation	Just red pictures must know sexual communities. Other others would consider physical, financial systems. Only names will not make since diseases. Too heal	35.78000068664551	3.45	14.34	scholaramalgamalg #10
+ation	Likely actors would shed. Public, curious individuals might count never applications. New	27.289999961853027	3.77	3.2	edu packedu pack #2
+ation	Low eyes conduct precise women. Capable toys may 	30.71000039577484	4.6	3.22	edu packexporti #2
+ation	More horrible legs follow very worried centres. Large, warm parts get surprisingly for a shares. Able thoughts should sleep. Long-term, enormous c	32.75999927520752	68.71	1.77	scholarunivamalg #3
+ation	New developers used to receive newly funds. Important, absolute hours could construct so christian, bad services. Thin eyes may sell individual	33.11999988555908	8.05	3.3	amalgedu pack #2
+ation	Of course new films must affect on the bodies. Initially essential	22.34000015258789	4.69	2.48	amalgamalgamalg #17
+ation	Public passages ought to intervene long extra members. Finally direct poun	34.07000017166138	2.87	1.52	edu packimporto #2
+ation	Quiet, modern institutions ought to mean already thin, sweet	19.290000915527344	5.52	4.47	corpnameless #10
+ation	Results shall seem only careful ministers; areas could force about at th	23.889999389648438	0.74	0.45	importoscholar #2
+ation	Stable others get that affairs; short modes listen already also royal periods. Various cattle benefit to the sciences. Visitors 	21.269999742507935	4.45	4.0	scholarunivamalg #10
+ation	Steps should 	14.09000015258789	0.33	0.41	exportiunivamalg #12
+ation	Strange, social rooms point alternatively in an tracks. Elegantly russian vehicles can tell; long ministers should want now mou	27.93000030517578	30.29	10.29	univmaxi #6
+ation	Then basic features cannot make always from the positions. 	25.93000030517578	3.58	2.21	namelessunivamalg #9
+ation	Tiny differences used to trace offenders. Particularly irish parents shout shoes. Less real communicat	26.35999971628189	1.62	1.03	exportiedu pack #2
+ation	United, economic strategies find then. Then grey factors can join occasionally in the manufacturers. Only, large conditions creep most into a consu	21.709999561309814	3.27	4.4	amalgnameless #6
+ation	Upwards soviet bacteria see followi	34.76000118255615	38.09	3.27	amalgedu pack #2
+ation	Words want just to the allegations; sometimes clear thousands shall belong up to an views; oth	28.90000033378601	4.62	4.06	corpunivamalg #2
+bar	Abilities approach. Affairs study now remarkable funds. Policies exercise considerable, recent 	33.18000042438507	4.57	2.33	exportischolar #2
+bar	Absolute criteria shall go very pleasant, impossible customers. Political changes cannot strengthen there different authorities. Decisively favorite conditions stud	33.839999198913574	3.02	1.78	exportischolar #2
+bar	All right single men must not predict to the organisa	33.799999713897705	9.45	2.62	importoscholar #2
+bar	Also top references ma	9.339999675750732	19.9	12.13	importoscholar #2
+bar	Alternative, desperate rules might talk only. Cases get recently. Smooth, public departments mean only c	35.41000056266785	6.6	5.14	edu packnameless #8
+bar	Companies improve international, male details; presidential members subscribe together perfect constraints. More distinct policies carry difficult grounds. Inwards beneficial element	35.3000006377697	6.78	2.19	importoamalg #2
+bar	Definitely vital trends will operate hard, reliable forms. Almost significant friends hide enough domestic conclusions; whole clubs make now causal, loose schools. Cases make twice. De	33.64999985694885	3.77	2.45	corpunivamalg #8
+bar	Divisions should get. Unions repay now centres. Dead, eastern americans	16.869999527931213	3.26	1.53	edu packscholar #2
+bar	Engines should go again as a years; british masters m	4.909999847412109	8.41	5.97	edu packimporto #2
+bar	Good journalists shall not get ancient legs. Bare homes upgr	20.020000755786896	5.97	5.16	importoamalg #2
+bar	Here incredible activities prepare like a songs; occupational, black months score of course crops; royal authorities shall	0.0	8.68	3.55	exportiamalg #2
+bar	Improved stars turn quickly benefits. Children bear only normal women. Also curious levels 	18.339999198913574	8.98	4.57	edu packscholar #2
+bar	Jobs provide quite. Major increases should not soften clear, select shoes. Final months take computers. Military years draw other friends. Too alone firms believe conditions. Signs give fixed 	25.62000036239624	6.94	1.56	brandcorp #2
+bar	Names could not ask appointments; difficu	31.229999542236328	3.31	2.84	edu packmaxi #12
+bar	Now main streets ought to lift streets. Cars see peoples. Black governments enter sudden theories. Different, vulnerable events could not help bills. Designs see wit	16.09000015258789	6.91	2.67	importoscholar #2
+bar	Occasional, physical schools allow away also adequate processes. Countries get only on a cultures. Structures shall drift high british groups. Seriously colle	23.800000190734863	34.42	15.14	scholarunivamalg #4
+bar	Official candidates discount with a instruments. Very small colleagues might tear activities. Lines must cut as alone, inc policies. Relevant, used photographs shall pr	29.109999656677246	0.64	6.12	edu packamalg #2
+bar	Painful definitions prove surely facts. Still able years calm neither; si	33.76000016927719	4.3	3.39	amalgedu pack #2
+bar	Rough, great men should tell again isolated plants. Firms ought to describe formerly children. Times mig	7.380000114440918	2.46	1.96	importoimporto #2
+bar	Russian, coming methods must not evolve valid, relative boards; immediately nat	27.569999933242798	1.3	7.45	importoedu pack #2
+bar	Satisfactory, careful ways would move however common, clear windows. Yesterday existing hours thin	35.34999990463257	6.16	3.75	importocorp #2
+bar	Sectors seek never environmental, necessary seats. Blue, medium forms will not sleep officers. Never abov	28.71999943256378	0.1	0.07	edu packmaxi #12
+bar	Today possible men must not initiate previous bodies. Big hours shall gain there japanese pairs. Direct hands can find recent, national books. Good new weaknesses change firm	14.960000157356262	4.01	3.0	edu packedu pack #2
+bar	Top studies rely still. Splendid, unacceptable stars 	11.930000305175781	3.32	2.75	exportischolar #2
+eing	Also perfect samples measure american plants. Interactions publish less whole parties. Others try single, sexual countries. Long years clear certain, roy	26.60999983549118	6.1	4.2	amalgimporto #2
+eing	As happy results might supply often able women; faces approach. Principles could think so to a members. Even yellow contributions shall continue quite exc	25.280000299215317	8.92	0.12	exportinameless #6
+eing	Church	15.219999998807907	3.9	3.39	exportischolar #2
+eing	Full, wrong intervals attend simple teachers; more early 	27.760000109672546	2.4	1.6	exportiexporti #2
+eing	Good words go in a variations. Light, equal women prove only thanks. Rapid elements could introduce metropolitan courts. Open, practical fortunes tolerate directly others. High, medical proposals sh	28.530000686645508	1.34	1.3	importoamalg #2
+eing	Improvements must live	3.5100001096725464	0.65	0.49	scholarnameless #2
+eing	International, young seats see really worker	25.850000500679016	85.28	70.78	amalgscholar #2
+eing	Likely actors would shed. Public, curious individuals might count never applications. New	36.91000026464462	3.77	3.2	edu packedu pack #2
+eing	Names become also actually social families. Members shall not experience there quiet links; especially ready marks must not v	19.679999947547913	14.21	8.66	amalgscholar #2
+eing	Neither nice aspects will express contrary, old sets. For example financial problems will attract roughly; subsequently early relationships ought to wait o	29.060000896453857	7.85	4.94	edu packnameless #6
+eing	Perfectly spanish costs must say markedly big national horses. Different, moving men should iron equally black countries. Lawyers turn similarly. 	35.6500004529953	3.65	16.6	edu packamalgamalg #15
+eing	Rates might see in a seconds. Always equal sheets can go moreo	2.559999942779541	4.41	1.58	exportiunivamalg #13
+eing	Rather english applications get a little. J	30.249999523162842	7.88	4.64	exportiedu pack #2
+eing	Shares may not assume very. General, black things supply for instance economic rules. As religious years control yet on a months. 	3.819999933242798	0.97	0.64	amalgimporto #2
+eing	Similar instructions betray letters. Critics find; flowers indicate days. Places express c	28.34000015258789	44.51	37.38	exportiunivamalg #5
+eing	Special, realistic friends will comply. Opening concentrations could not look too major, soviet proceedings. National children might get following, hig	33.87000072002411	9.56	0.38	exportiedu pack #2
+eing	Successes might correspond just certain reactions. Figures may offer unexpected subjects. Scientists construct entire rules	17.460000038146973	4.02	2.16	importoimporto #2
+eing	Turkish, major words ought to l	27.070000529289246	1.73	1.15	exportiimporto #2
+eing	Ver	29.07999897003174	3.03	2.45	importounivamalg #7
+eing	Western, radical fields ought to emerge too conscious values. So forthcoming equations should get ab	20.809998989105225	0.18	0.09	amalgscholar #2
+eing	Years shall see immediately; farmers may not go only, real r	26.070000559091568	85.1	1.26	importoscholar #2
+ese	Black, public shareholders amuse given books. Temporary authorities cannot order only directly due bottles. Parties would play soon only small deci	8.239999771118164	7.13	3.42	importobrand #6
+ese	Close,	28.950000286102295	0.7	2.74	brandnameless #4
+Time taken: 365.378 seconds, Fetched: 100 row(s)

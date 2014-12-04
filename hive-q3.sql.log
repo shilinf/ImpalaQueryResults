@@ -1,0 +1,112 @@
+
+Logging initialized using configuration in jar:file:/home/hadoop/.versions/hive-0.13.1/lib/hive-common-0.13.1.jar!/hive-log4j.properties
+Total jobs = 4
+Stage-12 is selected by condition resolver.
+Stage-1 is filtered out by condition resolver.
+14/12/03 20:00:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10010/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:00:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10010/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203200000_d79cff97-5139-41ec-8e66-08d8b7dd61d8.log
+2014-12-03 08:00:33	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:00:37	Dump the side-table for tag: 0 with group count: 155 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile20--.hashtable
+2014-12-03 08:00:37	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile20--.hashtable (4933 bytes)
+2014-12-03 08:00:37	End of local task; Time Taken: 4.327 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 2 out of 4
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0304, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0304/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0304
+Hadoop job information for Stage-9: number of mappers: 2; number of reducers: 0
+2014-12-03 20:00:54,462 Stage-9 map = 0%,  reduce = 0%
+2014-12-03 20:01:26,682 Stage-9 map = 50%,  reduce = 0%, Cumulative CPU 22.44 sec
+2014-12-03 20:01:28,754 Stage-9 map = 76%,  reduce = 0%, Cumulative CPU 24.68 sec
+2014-12-03 20:01:30,835 Stage-9 map = 100%,  reduce = 0%, Cumulative CPU 26.46 sec
+MapReduce Total cumulative CPU time: 26 seconds 460 msec
+Ended Job = job_1416678524241_0304
+14/12/03 20:01:36 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10014/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:01:36 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10014/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203200000_d79cff97-5139-41ec-8e66-08d8b7dd61d8.log
+2014-12-03 08:01:37	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:01:39	Dump the side-table for tag: 1 with group count: 19 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10005/HashTable-Stage-3/MapJoin-mapfile01--.hashtable
+2014-12-03 08:01:39	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-00-26_033_294651514127717079-1/-local-10005/HashTable-Stage-3/MapJoin-mapfile01--.hashtable (1198 bytes)
+2014-12-03 08:01:39	End of local task; Time Taken: 1.842 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 4
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0307, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0307/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0307
+Hadoop job information for Stage-3: number of mappers: 1; number of reducers: 1
+2014-12-03 20:01:56,757 Stage-3 map = 0%,  reduce = 0%
+2014-12-03 20:02:22,762 Stage-3 map = 43%,  reduce = 0%, Cumulative CPU 13.91 sec
+2014-12-03 20:02:29,032 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 18.48 sec
+2014-12-03 20:02:49,706 Stage-3 map = 100%,  reduce = 100%, Cumulative CPU 21.24 sec
+MapReduce Total cumulative CPU time: 21 seconds 240 msec
+Ended Job = job_1416678524241_0307
+Launching Job 4 out of 4
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0310, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0310/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0310
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2014-12-03 20:03:03,301 Stage-4 map = 0%,  reduce = 0%
+2014-12-03 20:03:22,849 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 1.79 sec
+2014-12-03 20:03:34,248 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 4.24 sec
+MapReduce Total cumulative CPU time: 4 seconds 240 msec
+Ended Job = job_1416678524241_0310
+MapReduce Jobs Launched: 
+Job 0: Map: 2   Cumulative CPU: 26.46 sec   HDFS Read: 388576995 HDFS Write: 16951353 SUCCESS
+Job 1: Map: 1  Reduce: 1   Cumulative CPU: 21.24 sec   HDFS Read: 16951942 HDFS Write: 2006 SUCCESS
+Job 2: Map: 1  Reduce: 1   Cumulative CPU: 4.24 sec   HDFS Read: 2373 HDFS Write: 1904 SUCCESS
+Total MapReduce CPU Time Spent: 51 seconds 940 msec
+OK
+1998	10003008	exportiunivamalg #8	34002.97002410889
+1998	4003001	exportiedu pack #1	24398.279624938965
+1998	3003001	exportiexporti #1	23904.230102539062
+1998	5004001	edu packscholar #1	19681.730381011963
+1998	2001001	amalgimporto #1	14342.529739379883
+1998	5003001	exportischolar #1	11245.129753112793
+1998	10014017	edu packamalgamalg #17	9000.080032348633
+1999	2001001	amalgimporto #1	33467.61954498291
+1999	10014017	edu packamalgamalg #17	22050.299896240234
+1999	3003001	exportiexporti #1	21759.999801635742
+1999	4003001	exportiedu pack #1	20529.58992099762
+1999	10003008	exportiunivamalg #8	19738.350006103516
+1999	5004001	edu packscholar #1	17101.489879369736
+1999	5003001	exportischolar #1	3904.5399112701416
+2000	5004001	edu packscholar #1	43450.31985473633
+2000	4003002	exportiedu pack #2	30805.450073242188
+2000	1004001	corpunivamalg #12	29679.620162963867
+2000	3003001	exportiexporti #1	26190.009925842285
+2000	10003008	exportiunivamalg #8	25007.540210723877
+2000	5003001	exportischolar #1	23952.12989807129
+2000	6012004	importobrand #4	16751.090255737305
+2000	10014017	edu packexporti #2	16685.739921569824
+2000	6015004	scholarbrand #4	14185.739933013916
+2001	1004001	corpunivamalg #12	29728.26026916504
+2001	10003008	exportiunivamalg #8	27696.60011291504
+2001	6015004	scholarbrand #4	17758.53003501892
+2001	5003001	maxiunivamalg #9	16229.459899902344
+2001	6012004	importobrand #4	14883.590116500854
+2001	10014017	edu packexporti #2	8613.780029296875
+2001	4003002	exportiedu pack #2	8136.899917602539
+2001	5004001	importocorp #8	7074.370056152344
+2002	6015004	importoscholar #1	42863.44010925293
+2002	6008005	namelesscorp #5	26870.760055541992
+2002	10003008	exportiunivamalg #8	15635.289749145508
+2002	5003001	maxiunivamalg #9	15245.06993484497
+2002	5004001	importocorp #8	11685.809936523438
+2002	8004007	edu packnameless #7	6609.1598834991455
+2002	9014011	edu packimporto #1	4689.840057373047
+Time taken: 189.411 seconds, Fetched: 38 row(s)

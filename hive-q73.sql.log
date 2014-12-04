@@ -1,0 +1,97 @@
+
+Logging initialized using configuration in jar:file:/home/hadoop/.versions/hive-0.13.1/lib/hive-common-0.13.1.jar!/hive-log4j.properties
+Total jobs = 7
+Stage-21 is selected by condition resolver.
+Stage-5 is filtered out by condition resolver.
+14/12/03 20:38:14 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10016/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:38:15 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10016/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203203838_7be51fe2-7c96-4107-b689-e3a5d6d9a385.log
+2014-12-03 08:38:15	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:38:18	Dump the side-table for tag: 1 with group count: 90 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10013/HashTable-Stage-15/MapJoin-mapfile41--.hashtable
+2014-12-03 08:38:18	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10013/HashTable-Stage-15/MapJoin-mapfile41--.hashtable (2613 bytes)
+2014-12-03 08:38:18	End of local task; Time Taken: 2.221 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 2 out of 7
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0393, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0393/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0393
+Hadoop job information for Stage-15: number of mappers: 2; number of reducers: 0
+2014-12-03 20:38:30,534 Stage-15 map = 0%,  reduce = 0%
+2014-12-03 20:38:50,207 Stage-15 map = 50%,  reduce = 0%, Cumulative CPU 12.59 sec
+2014-12-03 20:38:51,242 Stage-15 map = 76%,  reduce = 0%, Cumulative CPU 15.7 sec
+2014-12-03 20:38:52,275 Stage-15 map = 100%,  reduce = 0%, Cumulative CPU 16.46 sec
+MapReduce Total cumulative CPU time: 16 seconds 460 msec
+Ended Job = job_1416678524241_0393
+14/12/03 20:38:56 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10020/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:38:56 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10020/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203203838_7be51fe2-7c96-4107-b689-e3a5d6d9a385.log
+2014-12-03 08:38:57	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:38:58	Dump the side-table for tag: 1 with group count: 520 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10011/HashTable-Stage-2/MapJoin-mapfile21--.hashtable
+2014-12-03 08:38:58	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10011/HashTable-Stage-2/MapJoin-mapfile21--.hashtable (17503 bytes)
+2014-12-03 08:38:58	Dump the side-table for tag: 1 with group count: 0 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10011/HashTable-Stage-2/MapJoin-mapfile31--.hashtable
+2014-12-03 08:38:58	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10011/HashTable-Stage-2/MapJoin-mapfile31--.hashtable (260 bytes)
+2014-12-03 08:38:58	End of local task; Time Taken: 1.45 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 7
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0394, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0394/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0394
+Hadoop job information for Stage-2: number of mappers: 1; number of reducers: 1
+2014-12-03 20:39:10,118 Stage-2 map = 0%,  reduce = 0%
+2014-12-03 20:39:23,530 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 7.84 sec
+2014-12-03 20:39:34,897 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 11.45 sec
+MapReduce Total cumulative CPU time: 11 seconds 450 msec
+Ended Job = job_1416678524241_0394
+Stage-18 is filtered out by condition resolver.
+Stage-19 is selected by condition resolver.
+Stage-3 is filtered out by condition resolver.
+14/12/03 20:39:39 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10024/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:39:39 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10024/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203203838_7be51fe2-7c96-4107-b689-e3a5d6d9a385.log
+2014-12-03 08:39:40	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:39:41	Dump the side-table for tag: 0 with group count: 0 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10009/HashTable-Stage-11/MapJoin-mapfile10--.hashtable
+2014-12-03 08:39:41	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-38-08_816_5050390263602610451-1/-local-10009/HashTable-Stage-11/MapJoin-mapfile10--.hashtable (260 bytes)
+2014-12-03 08:39:41	End of local task; Time Taken: 1.062 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 5 out of 7
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0395, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0395/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0395
+Hadoop job information for Stage-11: number of mappers: 1; number of reducers: 0
+2014-12-03 20:39:52,960 Stage-11 map = 0%,  reduce = 0%
+2014-12-03 20:40:03,265 Stage-11 map = 100%,  reduce = 0%, Cumulative CPU 4.53 sec
+MapReduce Total cumulative CPU time: 4 seconds 530 msec
+Ended Job = job_1416678524241_0395
+Launching Job 6 out of 7
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0396, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0396/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0396
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2014-12-03 20:40:15,946 Stage-4 map = 0%,  reduce = 0%
+2014-12-03 20:40:25,234 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 1.87 sec
+2014-12-03 20:40:34,547 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 3.67 sec
+MapReduce Total cumulative CPU time: 3 seconds 670 msec
+Ended Job = job_1416678524241_0396
+MapReduce Jobs Launched: 
+Job 0: Map: 2   Cumulative CPU: 16.46 sec   HDFS Read: 388576995 HDFS Write: 3011610 SUCCESS
+Job 1: Map: 1  Reduce: 1   Cumulative CPU: 11.45 sec   HDFS Read: 3012201 HDFS Write: 96 SUCCESS
+Job 2: Map: 1   Cumulative CPU: 4.53 sec   HDFS Read: 13209583 HDFS Write: 96 SUCCESS
+Job 3: Map: 1  Reduce: 1   Cumulative CPU: 3.67 sec   HDFS Read: 464 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 36 seconds 110 msec
+OK
+Time taken: 146.848 seconds

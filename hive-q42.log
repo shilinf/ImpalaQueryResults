@@ -1,0 +1,83 @@
+
+Logging initialized using configuration in jar:file:/home/hadoop/.versions/hive-0.13.1/lib/hive-common-0.13.1.jar!/hive-log4j.properties
+Total jobs = 4
+Stage-12 is selected by condition resolver.
+Stage-1 is filtered out by condition resolver.
+14/12/03 22:45:45 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10010/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 22:45:45 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10010/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203224545_35a9850b-724b-4a5b-8e51-3fc8cd615e85.log
+2014-12-03 10:45:45	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 10:45:47	Dump the side-table for tag: 0 with group count: 31 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile20--.hashtable
+2014-12-03 10:45:47	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile20--.hashtable (1193 bytes)
+2014-12-03 10:45:47	End of local task; Time Taken: 1.665 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 2 out of 4
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0436, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0436/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0436
+Hadoop job information for Stage-9: number of mappers: 2; number of reducers: 0
+2014-12-03 22:46:00,008 Stage-9 map = 0%,  reduce = 0%
+2014-12-03 22:46:20,914 Stage-9 map = 50%,  reduce = 0%, Cumulative CPU 15.14 sec
+2014-12-03 22:46:24,038 Stage-9 map = 100%,  reduce = 0%, Cumulative CPU 18.1 sec
+MapReduce Total cumulative CPU time: 18 seconds 100 msec
+Ended Job = job_1416678524241_0436
+14/12/03 22:46:29 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10014/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 22:46:29 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10014/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203224545_35a9850b-724b-4a5b-8e51-3fc8cd615e85.log
+2014-12-03 10:46:30	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 10:46:32	Dump the side-table for tag: 1 with group count: 321 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10005/HashTable-Stage-3/MapJoin-mapfile01--.hashtable
+2014-12-03 10:46:32	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_22-45-39_524_3971921512134780399-1/-local-10005/HashTable-Stage-3/MapJoin-mapfile01--.hashtable (10887 bytes)
+2014-12-03 10:46:32	End of local task; Time Taken: 2.255 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 4
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0437, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0437/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0437
+Hadoop job information for Stage-3: number of mappers: 1; number of reducers: 1
+2014-12-03 22:46:45,133 Stage-3 map = 0%,  reduce = 0%
+2014-12-03 22:46:58,827 Stage-3 map = 43%,  reduce = 0%, Cumulative CPU 7.91 sec
+2014-12-03 22:46:59,861 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 8.08 sec
+2014-12-03 22:47:09,187 Stage-3 map = 100%,  reduce = 100%, Cumulative CPU 10.67 sec
+MapReduce Total cumulative CPU time: 10 seconds 670 msec
+Ended Job = job_1416678524241_0437
+Launching Job 4 out of 4
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0438, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0438/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0438
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2014-12-03 22:47:20,688 Stage-4 map = 0%,  reduce = 0%
+2014-12-03 22:47:30,994 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 1.87 sec
+2014-12-03 22:47:40,302 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 4.4 sec
+MapReduce Total cumulative CPU time: 4 seconds 400 msec
+Ended Job = job_1416678524241_0438
+MapReduce Jobs Launched: 
+Job 0: Map: 2   Cumulative CPU: 18.1 sec   HDFS Read: 388576995 HDFS Write: 3408725 SUCCESS
+Job 1: Map: 1  Reduce: 1   Cumulative CPU: 10.67 sec   HDFS Read: 3409316 HDFS Write: 455 SUCCESS
+Job 2: Map: 1  Reduce: 1   Cumulative CPU: 4.4 sec   HDFS Read: 823 HDFS Write: 326 SUCCESS
+Total MapReduce CPU Time Spent: 33 seconds 170 msec
+OK
+1998	1	Women	485053.85932445526
+1998	5	Music	429901.0716336332
+1998	3	Children	349537.85926532745
+1998	6	Jewelry	342518.189658165
+1998	2	Men	292191.2293226719
+1998	7	Home	252045.03049468994
+1998	10	Electronics	247818.28895664215
+1998	4	Shoes	230919.73034858704
+1998	9	Books	199259.93046951294
+1998	8	Sports	155578.67927742004
+Time taken: 122.931 seconds, Fetched: 10 row(s)

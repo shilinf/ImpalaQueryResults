@@ -1,0 +1,173 @@
+
+Logging initialized using configuration in jar:file:/home/hadoop/.versions/hive-0.13.1/lib/hive-common-0.13.1.jar!/hive-log4j.properties
+Total jobs = 4
+Stage-12 is selected by condition resolver.
+Stage-1 is filtered out by condition resolver.
+14/12/03 20:11:38 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10010/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:11:38 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10010/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203201111_81f1c168-a3bb-48f8-bc79-53c3aa1eb63a.log
+2014-12-03 08:11:39	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:11:42	Dump the side-table for tag: 0 with group count: 31 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile20--.hashtable
+2014-12-03 08:11:42	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10007/HashTable-Stage-9/MapJoin-mapfile20--.hashtable (1193 bytes)
+2014-12-03 08:11:42	End of local task; Time Taken: 2.212 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 2 out of 4
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0335, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0335/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0335
+Hadoop job information for Stage-9: number of mappers: 2; number of reducers: 0
+2014-12-03 20:11:54,618 Stage-9 map = 0%,  reduce = 0%
+2014-12-03 20:12:21,550 Stage-9 map = 50%,  reduce = 0%, Cumulative CPU 11.45 sec
+2014-12-03 20:12:22,589 Stage-9 map = 76%,  reduce = 0%, Cumulative CPU 16.0 sec
+2014-12-03 20:12:25,703 Stage-9 map = 100%,  reduce = 0%, Cumulative CPU 18.15 sec
+MapReduce Total cumulative CPU time: 18 seconds 150 msec
+Ended Job = job_1416678524241_0335
+14/12/03 20:12:29 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10014/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:12:29 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10014/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203201111_81f1c168-a3bb-48f8-bc79-53c3aa1eb63a.log
+2014-12-03 08:12:30	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:12:32	Dump the side-table for tag: 1 with group count: 321 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10005/HashTable-Stage-3/MapJoin-mapfile01--.hashtable
+2014-12-03 08:12:32	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-11-33_429_1679386071566984241-1/-local-10005/HashTable-Stage-3/MapJoin-mapfile01--.hashtable (15198 bytes)
+2014-12-03 08:12:32	End of local task; Time Taken: 1.884 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 4
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0337, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0337/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0337
+Hadoop job information for Stage-3: number of mappers: 1; number of reducers: 1
+2014-12-03 20:12:44,443 Stage-3 map = 0%,  reduce = 0%
+2014-12-03 20:13:03,237 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 8.23 sec
+2014-12-03 20:13:17,698 Stage-3 map = 100%,  reduce = 100%, Cumulative CPU 11.36 sec
+MapReduce Total cumulative CPU time: 11 seconds 360 msec
+Ended Job = job_1416678524241_0337
+Launching Job 4 out of 4
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0339, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0339/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0339
+Hadoop job information for Stage-4: number of mappers: 1; number of reducers: 1
+2014-12-03 20:13:29,865 Stage-4 map = 0%,  reduce = 0%
+2014-12-03 20:13:39,145 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 2.04 sec
+2014-12-03 20:13:48,519 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 4.48 sec
+MapReduce Total cumulative CPU time: 4 seconds 480 msec
+Ended Job = job_1416678524241_0339
+MapReduce Jobs Launched: 
+Job 0: Map: 2   Cumulative CPU: 18.15 sec   HDFS Read: 388576995 HDFS Write: 3408725 SUCCESS
+Job 1: Map: 1  Reduce: 1   Cumulative CPU: 11.36 sec   HDFS Read: 3409316 HDFS Write: 5279 SUCCESS
+Job 2: Map: 1  Reduce: 1   Cumulative CPU: 4.48 sec   HDFS Read: 5647 HDFS Write: 4909 SUCCESS
+Total MapReduce CPU Time Spent: 33 seconds 990 msec
+OK
+1998	2001002	amalgimporto #2	106826.48939275742
+1998	5003001	exportischolar #1	99447.11055517197
+1998	3002001	importoexporti #1	89873.05947208405
+1998	3003001	exportiexporti #1	85142.33993148804
+1998	1003002	exportiamalg #2	82403.48009872437
+1998	1002001	importoamalg #1	79063.25946712494
+1998	5001001	amalgscholar #1	76885.67953592166
+1998	4003001	exportiedu pack #1	74733.18111419678
+1998	5002001	importoscholar #1	73695.24063873291
+1998	1002002	importoamalg #2	67546.32991790771
+1998	5003002	exportischolar #2	67011.46084022522
+1998	3001001	amalgexporti #1	62910.820382118225
+1998	1004002	edu packamalg #2	60077.42961978912
+1998	1003001	exportiamalg #1	56893.82006263733
+1998	3004001	edu packexporti #1	55842.40956878662
+1998	4004001	edu packedu pack #1	54105.109785079956
+1998	1001002	amalgamalg #2	53484.96008300781
+1998	9015009	scholarunivamalg #9	49687.889976501465
+1998	1001001	amalgamalg #1	49195.37969493866
+1998	6016003	corpbrand #3	48435.1598815918
+1998	2003001	exportiimporto #1	47766.170066833496
+1998	2002001	importoimporto #1	42875.399600982666
+1998	5004002	edu packscholar #2	42787.83044433594
+1998	5001002	amalgscholar #2	41241.50938487053
+1998	7016001	corpnameless #1	38522.85015106201
+1998	1004001	edu packamalg #1	36389.20038032532
+1998	2004002	edu packimporto #2	36278.680168151855
+1998	4001001	amalgedu pack #1	34958.62009048462
+1998	8014005	edu packmaxi #5	34268.539905548096
+1998	9014011	edu packunivamalg #11	30956.3597946167
+1998	2003002	exportiimporto #2	29606.610424757004
+1998	7004007	edu packbrand #7	29560.579833984375
+1998	3002002	importoexporti #2	29517.859783172607
+1998	10009015	maxiunivamalg #15	29029.57985687256
+1998	9013009	exportiunivamalg #9	28696.520446777344
+1998	6006007	corpcorp #7	27875.36947631836
+1998	6002005	importocorp #5	27816.799682617188
+1998	6011005	amalgbrand #5	27141.85983157158
+1998	10002012	importounivamalg #12	26667.300064086914
+1998	4001002	amalgedu pack #2	26534.000297546387
+1998	10012017	importoamalgamalg #17	26445.190071105957
+1998	6009003	maxicorp #3	26425.849868774414
+1998	3003002	exportiexporti #2	26251.370127677917
+1998	10010013	univamalgamalg #13	24647.560522079468
+1998	6005001	scholarcorp #1	23992.920265197754
+1998	6011001	amalgbrand #1	22993.83953857422
+1998	10004004	edu packunivamalg #4	22497.960048675537
+1998	6003008	exporticorp #8	22282.649950265884
+1998	10013015	exportiamalgamalg #15	21829.259422302246
+1998	7001005	amalgbrand #5	21764.720275878906
+1998	4002001	importoedu pack #1	21438.51971435547
+1998	7010009	univnameless #9	21261.450328826904
+1998	9016003	corpunivamalg #3	20372.53003692627
+1998	10004001	edu packunivamalg #1	20134.099807739258
+1998	6010005	univbrand #5	20129.100513458252
+1998	8016004	corpmaxi #4	19656.95973968506
+1998	7007004	brandbrand #4	19562.87961578369
+1998	8004003	edu packnameless #3	19406.96989440918
+1998	4004002	edu packedu pack #2	19150.299346923828
+1998	6008007	namelesscorp #7	18906.430183410645
+1998	8005008	scholarnameless #8	18517.499534606934
+1998	9015011	scholarunivamalg #11	18320.299964904785
+1998	7010003	univnameless #3	17229.1397857666
+1998	8004009	edu packnameless #9	16502.060009002686
+1998	2001001	amalgimporto #1	15281.539855957031
+1998	9012008	importounivamalg #8	14995.770217895508
+1998	9012003	importounivamalg #3	14901.720291137695
+1998	10012011	importoamalgamalg #11	14843.009997367859
+1998	5002002	importoscholar #2	14792.330017089844
+1998	6015006	scholarbrand #6	14543.04993057251
+1998	7009010	maxibrand #10	14384.690231323242
+1998	6008005	namelesscorp #5	14179.050064086914
+1998	5004001	edu packscholar #1	14039.910217285156
+1998	8011009	amalgmaxi #9	13627.18994140625
+1998	6012008	importobrand #8	13565.230186462402
+1998	2004001	edu packimporto #1	13556.339813232422
+1998	10015004	scholaramalgamalg #4	13450.629940032959
+1998	7012003	importonameless #3	13134.949806213379
+1998	7014001	edu packnameless #1	12067.900115966797
+1998	10003004	exportiunivamalg #4	11785.41975402832
+1998	7012010	importonameless #10	11588.17001914978
+1998	7008009	namelessbrand #9	11459.430070877075
+1998	8013007	exportimaxi #7	11225.140197753906
+1998	9008005	namelessmaxi #5	10820.579940795898
+1998	10013013	exportiamalgamalg #13	10804.72974395752
+1998	7013007	exportinameless #7	10166.660110473633
+1998	7016007	corpnameless #7	9890.940048217773
+1998	8003010	exportinameless #10	9760.87003326416
+1998	10015013	scholaramalgamalg #13	9315.08975982666
+1998	6007003	brandcorp #3	9156.590187072754
+1998	10012004	importoamalgamalg #4	9099.31997680664
+1998	6008002	namelesscorp #2	8952.650058746338
+1998	6002003	importocorp #3	8853.049989700317
+1998	7015007	scholarnameless #7	8147.470039367676
+1998	9012005	importounivamalg #5	7806.139785766602
+1998	8005005	scholarnameless #5	7373.650007247925
+1998	7004009	edu packbrand #9	7275.429981231689
+1998	10003016	exportiunivamalg #16	7269.139991760254
+1998	7010004	univnameless #4	6027.770080566406
+1998	6012005	importobrand #5	4041.4499702453613
+Time taken: 136.213 seconds, Fetched: 100 row(s)

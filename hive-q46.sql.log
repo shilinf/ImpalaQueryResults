@@ -1,0 +1,209 @@
+
+Logging initialized using configuration in jar:file:/home/hadoop/.versions/hive-0.13.1/lib/hive-common-0.13.1.jar!/hive-log4j.properties
+Total jobs = 7
+Stage-28 is selected by condition resolver.
+Stage-7 is filtered out by condition resolver.
+14/12/03 20:07:49 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10020/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:07:49 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10020/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203200707_008b4b23-b9e9-4a62-bd5c-8a84e93717d0.log
+2014-12-03 08:07:50	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:07:53	Dump the side-table for tag: 1 with group count: 314 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10017/HashTable-Stage-21/MapJoin-mapfile61--.hashtable
+2014-12-03 08:07:53	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10017/HashTable-Stage-21/MapJoin-mapfile61--.hashtable (9725 bytes)
+2014-12-03 08:07:53	End of local task; Time Taken: 2.54 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 2 out of 7
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0323, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0323/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0323
+Hadoop job information for Stage-21: number of mappers: 2; number of reducers: 0
+2014-12-03 20:08:09,243 Stage-21 map = 0%,  reduce = 0%
+2014-12-03 20:08:30,185 Stage-21 map = 50%,  reduce = 0%, Cumulative CPU 19.94 sec
+2014-12-03 20:08:33,297 Stage-21 map = 76%,  reduce = 0%, Cumulative CPU 21.91 sec
+2014-12-03 20:08:38,484 Stage-21 map = 100%,  reduce = 0%, Cumulative CPU 25.09 sec
+MapReduce Total cumulative CPU time: 25 seconds 90 msec
+Ended Job = job_1416678524241_0323
+14/12/03 20:08:42 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10024/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:08:42 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10024/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203200707_008b4b23-b9e9-4a62-bd5c-8a84e93717d0.log
+2014-12-03 08:08:43	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:08:46	Dump the side-table for tag: 1 with group count: 50000 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10015/HashTable-Stage-3/MapJoin-mapfile31--.hashtable
+2014-12-03 08:08:46	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10015/HashTable-Stage-3/MapJoin-mapfile31--.hashtable (1691279 bytes)
+2014-12-03 08:08:46	Dump the side-table for tag: 1 with group count: 1800 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10015/HashTable-Stage-3/MapJoin-mapfile41--.hashtable
+2014-12-03 08:08:46	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10015/HashTable-Stage-3/MapJoin-mapfile41--.hashtable (47288 bytes)
+2014-12-03 08:08:46	Dump the side-table for tag: 1 with group count: 9 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10015/HashTable-Stage-3/MapJoin-mapfile51--.hashtable
+2014-12-03 08:08:46	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10015/HashTable-Stage-3/MapJoin-mapfile51--.hashtable (503 bytes)
+2014-12-03 08:08:46	End of local task; Time Taken: 2.864 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 7
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0326, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0326/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0326
+Hadoop job information for Stage-3: number of mappers: 2; number of reducers: 1
+2014-12-03 20:09:03,959 Stage-3 map = 0%,  reduce = 0%
+2014-12-03 20:09:26,873 Stage-3 map = 50%,  reduce = 0%, Cumulative CPU 27.81 sec
+2014-12-03 20:09:27,908 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 32.05 sec
+2014-12-03 20:09:39,376 Stage-3 map = 100%,  reduce = 100%, Cumulative CPU 37.11 sec
+MapReduce Total cumulative CPU time: 37 seconds 110 msec
+Ended Job = job_1416678524241_0326
+Stage-25 is filtered out by condition resolver.
+Stage-26 is selected by condition resolver.
+Stage-4 is filtered out by condition resolver.
+14/12/03 20:09:45 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10028/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:09:45 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10028/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203200707_008b4b23-b9e9-4a62-bd5c-8a84e93717d0.log
+2014-12-03 08:09:46	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:09:48	Dump the side-table for tag: 0 with group count: 8391 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10013/HashTable-Stage-16/MapJoin-mapfile20--.hashtable
+2014-12-03 08:09:48	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10013/HashTable-Stage-16/MapJoin-mapfile20--.hashtable (479219 bytes)
+2014-12-03 08:09:48	End of local task; Time Taken: 2.317 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 5 out of 7
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0329, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0329/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0329
+Hadoop job information for Stage-16: number of mappers: 1; number of reducers: 0
+2014-12-03 20:10:17,185 Stage-16 map = 0%,  reduce = 0%
+2014-12-03 20:10:28,855 Stage-16 map = 100%,  reduce = 0%, Cumulative CPU 4.92 sec
+MapReduce Total cumulative CPU time: 4 seconds 920 msec
+Ended Job = job_1416678524241_0329
+14/12/03 20:10:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10032/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 20:10:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10032/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203200707_008b4b23-b9e9-4a62-bd5c-8a84e93717d0.log
+2014-12-03 08:10:33	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 08:10:35	Dump the side-table for tag: 1 with group count: 50000 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10009/HashTable-Stage-6/MapJoin-mapfile01--.hashtable
+2014-12-03 08:10:35	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_20-07-43_259_7588344922018032759-1/-local-10009/HashTable-Stage-6/MapJoin-mapfile01--.hashtable (1691279 bytes)
+2014-12-03 08:10:35	End of local task; Time Taken: 1.739 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 6 out of 7
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0332, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0332/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0332
+Hadoop job information for Stage-6: number of mappers: 1; number of reducers: 1
+2014-12-03 20:10:46,420 Stage-6 map = 0%,  reduce = 0%
+2014-12-03 20:11:01,876 Stage-6 map = 100%,  reduce = 0%, Cumulative CPU 7.16 sec
+2014-12-03 20:11:21,659 Stage-6 map = 100%,  reduce = 100%, Cumulative CPU 10.8 sec
+MapReduce Total cumulative CPU time: 10 seconds 800 msec
+Ended Job = job_1416678524241_0332
+MapReduce Jobs Launched: 
+Job 0: Map: 2   Cumulative CPU: 25.09 sec   HDFS Read: 388576995 HDFS Write: 24785462 SUCCESS
+Job 1: Map: 2  Reduce: 1   Cumulative CPU: 37.11 sec   HDFS Read: 24786198 HDFS Write: 452952 SUCCESS
+Job 2: Map: 1   Cumulative CPU: 4.92 sec   HDFS Read: 13209583 HDFS Write: 626501 SUCCESS
+Job 3: Map: 1  Reduce: 1   Cumulative CPU: 10.8 sec   HDFS Read: 626869 HDFS Write: 6308 SUCCESS
+Total MapReduce CPU Time Spent: 1 minutes 17 seconds 920 msec
+OK
+			Bunker Hill	133136	4983.829933166504	-11549.370115280151
+			Plainview	1459	0.0	-3836.3200607299805
+			Red Hill	93581	258.5099973678589	-4603.869888305664
+			Red Hill	126394	0.0	-7598.000043392181
+			Woodville	50899	8655.309814453125	-10609.16030883789
+		Ashland	Philadelphia	155902	2303.720001220703	-9449.870002746582
+		Bayview	Springdale	162862	529.159984588623	-18595.599670410156
+		Belleview	Nichols	59976	13402.130279541016	-15556.690336227417
+		Belmont	Hillcrest	188517	1196.7400512695312	-10890.679901123047
+		Bethel		187584	145.30999755859375	-8358.400207519531
+		Blair	Harmony	227838	607.1199951171875	-5885.819969177246
+		Bridgeport	Mount Zion	123536	2049.9400634765625	-10804.37973022461
+		Brownsville	Bunker Hill	159429	4557.209869384766	-21733.270191192627
+		Brunswick	Georgetown	7889	95.06000137329102	-5415.189888000488
+		Brunswick	Mountain View	123733	2956.1299591064453	-17208.640285491943
+		Bunker Hill	Antioch	199878	0.0	-773.2700538635254
+		Bunker Hill	Hopewell	53497	1896.4300220012665	-14367.160249710083
+		Cedar Grove	Jackson	81259	8.550000190734863	-11335.939693450928
+		Cedar Grove	Slabtown	13421	1160.5799560546875	3554.8997497558594
+		Cedar Grove	Wildwood	49987	4486.830078125	-13902.509773254395
+		Centerville	Mount Olive	66053	2445.2098999023438	-8995.89013671875
+		Centerville	Providence	62604	156.21000289916992	-13626.639995574951
+		Centerville	Wilson	92369	3823.9999389648438	-10960.680236816406
+		Clifton	Belmont	156115	1108.0899658203125	-3988.740041732788
+		Clifton	Mount Vernon	95501	3283.169921875	-13463.749919891357
+		Clifton	White Oak	59712	2292.429977416992	-16908.539932250977
+		Clinton		85765	861.0	-7047.079948425293
+		Cordova	Crossroads	85385	38.970001220703125	-1522.5798797607422
+		Crossroads	Buena Vista	221999	6605.499786376953	-14108.430236816406
+		Crossroads	Franklin	68898	0.0	-5999.090133666992
+		Crossroads	Unionville	58203	1393.5500030517578	-11986.879791259766
+		Dewey	Edgewood	189537	328.9499864578247	-3286.830123901367
+		Edgewood	Hopewell	167421	3066.6999769210815	-20260.270153045654
+		Elizabeth	Antioch	162961	926.6799850463867	-7179.499839782715
+		Empire	Five Forks	43396	1194.3700256347656	-7701.690020799637
+		Enterprise	Franklin	70195	2163.260009765625	-4967.000005722046
+		Enterprise	Red Hill	115200	7016.430099487305	-19331.970242500305
+		Fairfield	Farmington	220431	1194.06005859375	-2736.4700117111206
+		Fairfield	Midway	671	438.8999938964844	2207.1799926757812
+		Fairfield	Providence	115411	5385.300201416016	-11088.829944610596
+		Fairfield	Shiloh	149867	2723.4900512695312	-7041.499948501587
+		Fairfield	Springdale	66752	3844.6400299072266	-8300.750189781189
+		Five Forks	Lakewood	186991	4960.220031738281	-10929.930229187012
+		Five Forks	Shady Grove	239479	374.42999267578125	-21828.490116119385
+		Five Points	Enterprise	98042	1680.530029296875	-4828.500061035156
+		Five Points	Union Hill	57715	3618.570068359375	-14013.63011932373
+		Florence	Newtown	55640	2068.6800384521484	-11680.710070848465
+		Florence	Spring Hill	104935	40.790000915527344	-9961.139987945557
+		Forest Hills	Ashland	214771	1585.3599967956543	-2846.809917062521
+		Friendship	Ashland	11043	382.3299865722656	-4808.330211639404
+		Friendship	Glenwood	79216	519.0899887084961	-5139.359992980957
+		Georgetown	Summit	120620	1005.2100219726562	-3159.1400604248047
+		Glendale	Indian Village	203729	3173.010009765625	-5661.899854660034
+		Glendale	Marion	51036	993.7500152587891	-10587.279812335968
+		Glendale	West Liberty	5509	694.8599758148193	-23013.690048217773
+		Glenwood	Antioch	86386	413.04999351501465	-6649.419815063477
+		Glenwood	Clinton	90728	3371.209945678711	-15159.099827766418
+		Granite	Clinton	211465	8156.940093994141	-18944.879715442657
+		Green Acres	Avery	191571	383.26000213623047	-7422.350068330765
+		Greenfield	Edgewood	69782	1026.4700012207031	-14367.199993133545
+		Greenfield	Riverdale	133538	9390.09994506836	-15802.27978515625
+		Greenville	Mountain View	103238	4318.130035400391	-4564.090095043182
+		Greenville	Shiloh	155915	0.0	-9362.719757080078
+		Greenwood	Mount Vernon	30561	853.2599802017212	-15984.249801635742
+		Guthrie	Waterloo	123884	0.0	-4317.269996643066
+		Hamilton	Valley View	161021	222.62000274658203	-14659.54008102417
+		Harmony	Greenville	43522	2610.14990234375	-2453.450325012207
+		Harmony	Valley View	205004	1107.2500343322754	-10581.319946289062
+		Highland Park	Salem	69302	1868.1399555206299	-9374.039878845215
+		Jackson	Newtown	224195	0.0	-5435.820068359375
+		Jackson	Union Hill	114590	6854.049865722656	-10691.189834594727
+		Jamestown	Sunnyside	56838	359.80999755859375	-7060.329940795898
+		Kingston	Union	126965	256.3399963378906	-2964.6500129699707
+		Lakeview	Florence	100050	59.150001525878906	-7569.890024185181
+		Lakeview	Richville	165849	0.0	-25580.390144348145
+		Lakewood	New Hope	233463	7410.880197525024	-11209.47985458374
+		Lakewood	Spring Hill	144979	4075.68994140625	-7995.33998298645
+		Lebanon	Bridgeport	193952	2098.0499305725098	-10456.639865875244
+		Lewis	Red Hill	43196	0.0	-4774.249976158142
+		Louisville	Lakeside	139327	3800.989993095398	-10089.610160827637
+		Ludlow	Shiloh	150308	0.0	2815.9599437713623
+		Macedonia	Summerville	96898	190.19000244140625	-5906.639865875244
+		Maple Grove	Hardy	94091	74.16000366210938	-730.0400581359863
+		Midway	Jackson	99981	340.0	-4399.7399706840515
+		Midway	Oak Hill	185927	0.0	-5814.539970397949
+		Midway	Oakwood	11488	671.760009765625	-7713.43017578125
+		Milan	Buena Vista	53521	5516.330078125	370.2199401855469
+		Milan	Woodland	226048	3239.6400146484375	-13933.740036010742
+		Mount Pleasant	Union	157956	7732.840137481689	-12103.020169585943
+		Mount Zion	Delmar	8250	6076.059997558594	-11983.569809913635
+		Mount Zion	Shiloh	57460	857.829963684082	-2351.1299743652344
+		Mountain View	Maple Grove	190570	808.5400085449219	-6999.669949531555
+		New Hope	Belmont	66432	7437.650230407715	-7409.569843292236
+		Newport	Bunker Hill	47193	7135.5301513671875	-17347.32041168213
+		Newport	Pine Grove	69115	6807.4498291015625	-11536.430038452148
+		Newtown	Union Hill	186823	1551.4100341796875	-4662.0998458862305
+		Nottingham	Mountain View	231246	7750.89001262188	-2699.1600952148438
+		Oak Grove	Bay View	117417	907.109992980957	-363.33002376556396
+		Oak Hill	Plainview	148695	2396.8599309921265	-15248.929931640625
+		Oakdale	Glendale	31650	236.0800018310547	-2510.3901977539062
+Time taken: 220.549 seconds, Fetched: 100 row(s)

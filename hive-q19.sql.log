@@ -1,0 +1,216 @@
+
+Logging initialized using configuration in jar:file:/home/hadoop/.versions/hive-0.13.1/lib/hive-common-0.13.1.jar!/hive-log4j.properties
+Total jobs = 8
+Stage-24 is selected by condition resolver.
+Stage-5 is filtered out by condition resolver.
+14/12/03 19:48:54 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10019/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 19:48:54 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10019/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203194848_4326f0ae-d4ee-4201-9ba6-e7e218e99eec.log
+2014-12-03 07:48:55	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 07:48:58	Dump the side-table for tag: 0 with group count: 30 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10016/HashTable-Stage-18/MapJoin-mapfile60--.hashtable
+2014-12-03 07:48:58	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10016/HashTable-Stage-18/MapJoin-mapfile60--.hashtable (1163 bytes)
+2014-12-03 07:48:58	End of local task; Time Taken: 2.867 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 2 out of 8
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0268, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0268/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0268
+Hadoop job information for Stage-18: number of mappers: 2; number of reducers: 0
+2014-12-03 19:49:16,295 Stage-18 map = 0%,  reduce = 0%
+2014-12-03 19:49:48,510 Stage-18 map = 76%,  reduce = 0%, Cumulative CPU 17.15 sec
+2014-12-03 19:49:49,564 Stage-18 map = 100%,  reduce = 0%, Cumulative CPU 17.77 sec
+MapReduce Total cumulative CPU time: 17 seconds 770 msec
+Ended Job = job_1416678524241_0268
+14/12/03 19:49:54 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10023/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 19:49:54 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10023/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203194848_4326f0ae-d4ee-4201-9ba6-e7e218e99eec.log
+2014-12-03 07:49:55	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 07:49:57	Dump the side-table for tag: 1 with group count: 327 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10014/HashTable-Stage-16/MapJoin-mapfile41--.hashtable
+2014-12-03 07:49:57	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10014/HashTable-Stage-16/MapJoin-mapfile41--.hashtable (20190 bytes)
+2014-12-03 07:49:57	End of local task; Time Taken: 1.75 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 8
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0272, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0272/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0272
+Hadoop job information for Stage-16: number of mappers: 1; number of reducers: 0
+2014-12-03 19:50:13,220 Stage-16 map = 0%,  reduce = 0%
+2014-12-03 19:50:26,885 Stage-16 map = 100%,  reduce = 0%, Cumulative CPU 6.62 sec
+MapReduce Total cumulative CPU time: 6 seconds 620 msec
+Ended Job = job_1416678524241_0272
+Stage-21 is filtered out by condition resolver.
+Stage-22 is selected by condition resolver.
+Stage-7 is filtered out by condition resolver.
+14/12/03 19:50:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10027/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 19:50:32 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10027/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203194848_4326f0ae-d4ee-4201-9ba6-e7e218e99eec.log
+2014-12-03 07:50:33	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 07:50:34	Dump the side-table for tag: 0 with group count: 1407 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10012/HashTable-Stage-14/MapJoin-mapfile30--.hashtable
+2014-12-03 07:50:34	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10012/HashTable-Stage-14/MapJoin-mapfile30--.hashtable (136656 bytes)
+2014-12-03 07:50:34	End of local task; Time Taken: 1.223 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 5 out of 8
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1416678524241_0275, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0275/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0275
+Hadoop job information for Stage-14: number of mappers: 1; number of reducers: 0
+2014-12-03 19:50:46,265 Stage-14 map = 0%,  reduce = 0%
+2014-12-03 19:50:56,585 Stage-14 map = 100%,  reduce = 0%, Cumulative CPU 3.69 sec
+MapReduce Total cumulative CPU time: 3 seconds 690 msec
+Ended Job = job_1416678524241_0275
+14/12/03 19:51:01 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10031/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+14/12/03 19:51:01 WARN conf.Configuration: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10031/jobconf.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+Execution log at: /mnt/var/log/apps//hadoop-exec-hadoop_20141203194848_4326f0ae-d4ee-4201-9ba6-e7e218e99eec.log
+2014-12-03 07:51:02	Starting to launch local task to process map join;	maximum memory = 932184064
+2014-12-03 07:51:03	Dump the side-table for tag: 1 with group count: 12 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10008/HashTable-Stage-2/MapJoin-mapfile01--.hashtable
+2014-12-03 07:51:03	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10008/HashTable-Stage-2/MapJoin-mapfile01--.hashtable (575 bytes)
+2014-12-03 07:51:03	Dump the side-table for tag: 1 with group count: 50000 into file: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10008/HashTable-Stage-2/MapJoin-mapfile11--.hashtable
+2014-12-03 07:51:04	Uploaded 1 File to: file:/mnt/var/lib/hive/tmp/local-hadoop/hive_2014-12-03_19-48-44_760_3243372553547388151-1/-local-10008/HashTable-Stage-2/MapJoin-mapfile11--.hashtable (1499084 bytes)
+2014-12-03 07:51:04	End of local task; Time Taken: 1.515 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 6 out of 8
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0276, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0276/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0276
+Hadoop job information for Stage-2: number of mappers: 1; number of reducers: 1
+2014-12-03 19:51:17,849 Stage-2 map = 0%,  reduce = 0%
+2014-12-03 19:51:31,578 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 5.42 sec
+2014-12-03 19:51:54,366 Stage-2 map = 100%,  reduce = 81%, Cumulative CPU 7.35 sec
+2014-12-03 19:51:57,462 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 8.55 sec
+MapReduce Total cumulative CPU time: 8 seconds 550 msec
+Ended Job = job_1416678524241_0276
+Launching Job 7 out of 8
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1416678524241_0279, Tracking URL = http://10.69.82.228:9046/proxy/application_1416678524241_0279/
+Kill Command = /home/hadoop/bin/hadoop job  -kill job_1416678524241_0279
+Hadoop job information for Stage-3: number of mappers: 1; number of reducers: 1
+2014-12-03 19:52:18,673 Stage-3 map = 0%,  reduce = 0%
+2014-12-03 19:52:33,117 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 2.06 sec
+2014-12-03 19:52:42,413 Stage-3 map = 100%,  reduce = 100%, Cumulative CPU 4.6 sec
+MapReduce Total cumulative CPU time: 4 seconds 600 msec
+Ended Job = job_1416678524241_0279
+MapReduce Jobs Launched: 
+Job 0: Map: 2   Cumulative CPU: 17.77 sec   HDFS Read: 388576995 HDFS Write: 3495834 SUCCESS
+Job 1: Map: 1   Cumulative CPU: 6.62 sec   HDFS Read: 3496425 HDFS Write: 133794 SUCCESS
+Job 2: Map: 1   Cumulative CPU: 3.69 sec   HDFS Read: 13209583 HDFS Write: 142452 SUCCESS
+Job 3: Map: 1  Reduce: 1   Cumulative CPU: 8.55 sec   HDFS Read: 142820 HDFS Write: 10409 SUCCESS
+Job 4: Map: 1  Reduce: 1   Cumulative CPU: 4.6 sec   HDFS Read: 10777 HDFS Write: 5940 SUCCESS
+Total MapReduce CPU Time Spent: 41 seconds 230 msec
+OK
+8013005	exportimaxi #5	87	ationeing	67191.09033203125
+2001001	amalgimporto #1	986	callyeingn st	47365.82080078125
+4003002	exportiedu pack #2	207	ationbarable	46186.819816589355
+7010007	univnameless #7	873	priationeing	44941.819427490234
+1003001	exportiamalg #1	330	barpripri	44623.50949859619
+7008002	namelessbrand #2	610	baroughtcally	40391.18950653076
+8003007	exportinameless #7	330	barpripri	39360.87985992432
+1003001	exportiamalg #1	151	oughtantiought	38014.920097351074
+1001002	amalgamalg #2	185	antieingought	37903.18985939026
+8001008	amalgnameless #8	293	prin stable	37677.710189819336
+8011007	amalgmaxi #7	291	oughtn stable	37183.53012084961
+1004002	edu packamalg #2	345	antiesepri	36754.490325927734
+6015006	scholarbrand #6	294	esen stable	36075.24936294556
+2002002	importoimporto #2	312	ableoughtpri	35733.22026824951
+7010009	univnameless #9	9	n st	34761.98004722595
+10002008	importounivamalg #8	271	oughtationable	33816.850173950195
+6016006	corpbrand #6	965	anticallyn st	32961.33966064453
+1001001	amalgamalg #1	180	bareingought	32076.40002632141
+2004001	edu packimporto #1	222	ableableable	31528.480185508728
+2004001	edu packimporto #1	166	callycallyought	31523.089542388916
+6006001	corpcorp #1	268	eingcallyable	30973.780165672302
+5004002	edu packscholar #2	547	ationeseanti	30859.75977706909
+7010007	univnameless #7	402	ablebarese	30423.540100097656
+6004005	edu packcorp #5	139	n stpriought	30332.129676818848
+7010003	univnameless #3	78	eingation	29390.959732055664
+8004007	edu packnameless #7	65	antically	29165.51944065094
+1004001	edu packamalg #1	462	ablecallyese	28599.14012145996
+4001002	amalgedu pack #2	669	n stcallycally	28495.379638671875
+4001001	amalgedu pack #1	284	eseeingable	27971.150177001953
+6010005	univbrand #5	572	ableationanti	27809.460083007812
+3003001	exportiexporti #1	550	barantianti	27766.610018730164
+2002001	importoimporto #1	97	ationn st	27506.82021713257
+3003001	exportiexporti #1	220	barableable	27401.950110912323
+5002002	importoscholar #2	427	ationableese	27283.129585266113
+5003002	exportischolar #2	88	eingeing	26989.72964477539
+8006009	corpnameless #9	83	prieing	26918.460220336914
+3001001	amalgexporti #1	18	eingought	26762.470039367676
+7014005	edu packnameless #5	142	ableeseought	26675.079681396484
+2004002	edu packimporto #2	481	oughteingese	26662.070426940918
+3001001	amalgexporti #1	47	ationese	26372.12010192871
+5002001	importoscholar #1	57	ationanti	26027.829818725586
+4004001	edu packedu pack #1	32	ablepri	25877.469970703125
+10011002	amalgamalgamalg #2	859	n stantieing	25651.620155334473
+5002002	importoscholar #2	544	eseeseanti	25548.12050628662
+9014011	edu packunivamalg #11	15	antiought	25521.64031982422
+3003001	exportiexporti #1	757	ationantiation	25208.230026245117
+8005007	scholarnameless #7	206	callybarable	24979.04963493347
+5003001	exportischolar #1	887	ationeingeing	24047.50018310547
+7005001	scholarbrand #1	181	oughteingought	23987.070022583008
+1001002	amalgamalg #2	21	oughtable	23946.44010925293
+4001001	amalgedu pack #1	167	ationcallyought	23746.65033340454
+2002002	importoimporto #2	301	oughtbarpri	23648.299755096436
+8001007	amalgnameless #7	154	eseantiought	23507.610580444336
+5001001	amalgscholar #1	684	eseeingcally	23381.97021484375
+5002001	importoscholar #1	97	ationn st	23344.319564819336
+9005003	scholarmaxi #3	605	antibarcally	22998.500007629395
+4001001	amalgedu pack #1	590	barn stanti	22167.049850463867
+10013006	exportiamalgamalg #6	13	priought	22099.339881896973
+5002001	importoscholar #1	69	n stcally	21970.65945801139
+1002001	importoamalg #1	884	eseeingeing	21931.7300491333
+6011007	amalgbrand #7	284	eseeingable	21624.090003967285
+3004001	edu packexporti #1	357	ationantipri	21406.800094604492
+8010003	univmaxi #3	314	eseoughtpri	21073.010131835938
+8001001	amalgnameless #1	329	n stablepri	20822.229904174805
+6008002	namelesscorp #2	328	eingablepri	20323.82982635498
+3002001	importoexporti #1	649	n stesecally	20279.230224609375
+10015004	scholaramalgamalg #4	545	antieseanti	20242.549684524536
+6015002	scholarbrand #2	21	oughtable	19870.180053710938
+2001001	amalgimporto #1	685	antieingcally	19839.830474853516
+5004001	edu packscholar #1	158	eingantiought	19651.239849090576
+9011011	amalgunivamalg #11	751	oughtantiation	19559.86975479126
+8014002	edu packmaxi #2	257	ationantiable	19418.659912109375
+6005002	scholarcorp #2	164	esecallyought	19401.51000213623
+8006007	corpnameless #7	602	ablebarcally	19376.159927368164
+1001001	amalgamalg #1	179	n stationought	19364.840057373047
+7009002	maxibrand #2	233	pripriable	19330.619888305664
+8016002	corpmaxi #2	81	oughteing	19256.589904785156
+7004003	edu packbrand #3	431	oughtpriese	19235.099975585938
+1002001	importoamalg #1	185	antieingought	19087.580291748047
+4003002	exportiedu pack #2	825	antiableeing	18583.500061035156
+7009009	maxibrand #9	326	callyablepri	18296.42995738983
+8005003	scholarnameless #3	159	n stantiought	18253.810180664062
+6010006	univbrand #6	262	ablecallyable	18210.0
+3001001	amalgexporti #1	30	barpri	18194.490005493164
+2003001	exportiimporto #1	160	barcallyought	18193.039585113525
+9014008	edu packunivamalg #8	639	n stprically	17681.659808158875
+4004002	edu packedu pack #2	384	eseeingpri	17603.599754333496
+10002005	importounivamalg #5	485	antieingese	17531.27018737793
+7006007	corpbrand #7	189	n steingought	17411.510202407837
+8013003	exportimaxi #3	561	oughtcallyanti	16910.700382232666
+3004002	edu packexporti #2	83	prieing	16797.479813575745
+3002002	importoexporti #2	50	baranti	16694.480001449585
+3002002	importoexporti #2	52	ableanti	15965.989908218384
+9006005	corpmaxi #5	839	n stprieing	15858.100189208984
+2004001	edu packimporto #1	25	antiable	15815.640045166016
+2001001	amalgimporto #1	233	pripriable	15521.919692993164
+7016007	corpnameless #7	288	eingeingable	15350.09981918335
+2002002	importoimporto #2	426	callyableese	15194.310180664062
+5001001	amalgscholar #1	125	antiableought	15053.030101776123
+4003001	exportiedu pack #1	505	antibaranti	15003.179748535156
+Time taken: 239.852 seconds, Fetched: 100 row(s)
